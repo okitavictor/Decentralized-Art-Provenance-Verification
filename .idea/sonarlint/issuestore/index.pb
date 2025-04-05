@@ -7,3 +7,5 @@ M
 contracts/authentication.clar,6/4/6419d6ed372c5169a8a5c036024a49cb66236f4b
 L
 tests/authentication.test.ts,0/1/01cab361a6f3fcfd008c2f000b905ee72665eb1a
+R
+"tests/artwork-registration.test.ts,9/8/98ebee44db3194b53f87e17fda3791d83da99dc7
