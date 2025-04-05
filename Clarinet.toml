@@ -1,0 +1,24 @@
+[project]
+name = 'Decentralized-Art-Provenance-Verification'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.artwork-registration]
+path = 'contracts/artwork-registration.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.authentication]
+path = 'contracts/authentication.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
